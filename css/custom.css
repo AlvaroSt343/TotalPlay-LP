@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 
+.colorNaranja {
+   color: #ff8845;
+}
+.colorVerde {
+   color: #c1e221;
+}
+.colorRojo {
+   color: #ff4b54;
+}
+
 .BoxS {
    background-color: white;
    box-shadow: 0px 2px 18px -4px rgba(0, 0, 0, 0.6);
@@ -11,11 +21,15 @@
    left: 45%;
    transform: translateX(-50%);
 }
-
-.bannerTxt {
+.banner-1 {
+   margin-top: 70px;
+}
+.textalignvertical {
    position: absolute;
-   top: 38%;
+   top: 45%;
    transform: translateY(-50%);
+}
+.bannerTxt {
    font-family: "Montserrat";
    font-style: italic;
    font-weight: 800;
@@ -23,8 +37,8 @@
    line-height: 71px;
    color: #646161;
 }
-bannersub{
-   
+.bannersub {
+   color: #fbaf35;
 }
 .bannerBtn {
    font-family: "Livvic";
@@ -39,10 +53,8 @@ bannersub{
    text-decoration: none;
 }
 .bannerBtn:hover {
-    color: white;
-    
+   color: white;
 }
-
 .nav-link {
    font-family: proxima-nova, sans-serif;
    font-style: normal;
@@ -54,6 +66,19 @@ bannersub{
    color: #101010 !important;
 }
 
-.banner-1 {
-   margin-top: 70px;
+.tiraP {
+   background-image: url("../img/content/back-tira1.png");
+}
+.tiraimg {
+   padding: 50px;
+}
+.tiratxt {
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 37px;
+   line-height: 54px;
+   text-align: right;
+   color: #ffffff;
+   padding: 50px;
 }
