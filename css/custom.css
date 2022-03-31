@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+.BoxS {
+   background-color: white;
+   box-shadow: 0px 2px 18px -4px rgba(0, 0, 0, 0.6);
+}
+
+.H-align {
+   position: relative;
+   left: 45%;
+   transform: translateX(-50%);
+}
+
+.bannerTxt {
+   position: absolute;
+   top: 38%;
+   transform: translateY(-50%);
+   font-family: "Montserrat";
+   font-style: italic;
+   font-weight: 800;
+   font-size: 64.6233px;
+   line-height: 71px;
+   color: #646161;
+}
+bannersub{
+   
+}
+.bannerBtn {
+   font-family: "Livvic";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 77px;
+   color: #ffffff;
+   background: #00b7e3;
+   border-radius: 41px;
+   padding: 11px 44px;
+   text-decoration: none;
+}
+.bannerBtn:hover {
+    color: white;
+    
+}
+
+.nav-link {
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   text-transform: capitalize;
+   color: #101010 !important;
+}
+
+.banner-1 {
+   margin-top: 70px;
+}
