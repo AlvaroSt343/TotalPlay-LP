@@ -11,15 +11,61 @@
    color: #ff4b54;
 }
 
-.verde1{
+.verde1 {
    color: #7d911f;
 }
-.verde2{
+.verde2 {
    color: #b6d03a;
 }
+.verdeH {
+   background-color: #b6d03a;
+}
+.amarillo1 {
+   color: #b9780f;
+}
+.amarillo2 {
+   color: #fbaf35;
+}
+.amarilloH {
+   background-color: #fbaf35;
+}
+.rojo1 {
+   color: #e82539;
+}
+.rojo2 {
+   color: #f3374a;
+}
+.rojoH {
+   background-color: #e82539;
+}
 
-
-
+.azul1 {
+   color: #0788a7;
+}
+.azul2 {
+   color: #00b7e3;
+}
+.azulH {
+   background-color: #00b7e3;
+}
+.rosa1 {
+   color: #e41e6f;
+}
+.rosa2 {
+   color: #e31f6f;
+}
+.rosaH {
+   background-color: #e31f6f;
+}
+.morado1 {
+   color: #794f8c;
+}
+.morado2 {
+   color: #9261a8;
+}
+.moradoH {
+   background-color: #9261a8;
+}
 
 .BoxS {
    background-color: white;
@@ -122,7 +168,7 @@
    font-size: 25px;
    line-height: 129.4%;
    color: #ffffff;
-   background-color: #b6d03a;
+
    padding: 35px 0;
 }
 .cardpaquetescontent {
@@ -134,7 +180,6 @@
    font-weight: 800;
    font-size: 47.1963px;
    line-height: 101.4%;
-   color: #7d911f;
 }
 .cont2 {
    font-family: "Montserrat";
@@ -142,7 +187,6 @@
    font-weight: 800;
    font-size: 36.6012px;
    line-height: 129.4%;
-   color: #7d911f;
 }
 .sub1 {
    font-family: "Montserrat";
@@ -150,7 +194,6 @@
    font-weight: 600;
    font-size: 20.227px;
    line-height: 105.4%;
-   color: #b6d03a;
 }
 .price1 {
    font-family: "Montserrat";
@@ -158,7 +201,6 @@
    font-weight: 800;
    font-size: 67.4233px;
    line-height: 129.4%;
-   color: #7d911f;
 }
 .price2 {
    font-family: "Montserrat";
@@ -166,5 +208,4 @@
    font-weight: 800;
    font-size: 58.7546px;
    line-height: 129.4%;
-   color: #b6d03a;
 }
