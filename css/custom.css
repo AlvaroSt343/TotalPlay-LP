@@ -82,3 +82,79 @@
    color: #ffffff;
    padding: 50px;
 }
+.purpleTitle {
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 60px;
+   line-height: 129.4%;
+   color: #85559a;
+}
+.subpurpleTitle {
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 125.4%;
+   letter-spacing: -0.015em;
+   color: #636569;
+}
+.cardpaquetes {
+   background: #ffffff;
+   box-shadow: 0px 0px 13px 11px rgba(0, 0, 0, 0.04);
+   border-radius: 11px;
+   overflow: hidden;
+}
+.paquetesheader {
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 800;
+   font-size: 25px;
+   line-height: 129.4%;
+   color: #ffffff;
+   background-color: #b6d03a;
+   padding: 35px 0;
+}
+.cardpaquetescontent {
+   padding: 34px 15px;
+}
+.cont1 {
+   font-family: "Montserrat";
+   font-style: italic;
+   font-weight: 800;
+   font-size: 47.1963px;
+   line-height: 101.4%;
+   color: #7d911f;
+}
+.cont2 {
+   font-family: "Montserrat";
+   font-style: italic;
+   font-weight: 800;
+   font-size: 36.6012px;
+   line-height: 129.4%;
+   color: #7d911f;
+}
+.sub1 {
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20.227px;
+   line-height: 105.4%;
+   color: #b6d03a;
+}
+.price1 {
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 800;
+   font-size: 67.4233px;
+   line-height: 129.4%;
+   color: #7d911f;
+}
+.price2 {
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 800;
+   font-size: 58.7546px;
+   line-height: 129.4%;
+   color: #b6d03a;
+}
