@@ -82,7 +82,7 @@
 }
 .textalignvertical {
    position: absolute;
-   top: 6%;
+   top: 7%;
 }
 
 .cardBanner {
@@ -136,7 +136,7 @@
    font-family: "Montserrat";
    font-style: italic;
    font-weight: 800;
-   font-size: 4vw;
+   font-size: 3vw;
    line-height: 4vw;
    color: #646161;
 }
@@ -304,14 +304,50 @@
    height: 180px;
 }
 
+.whatsIconPosition {
+   position: fixed;
+   z-index: 15;
+   top: 40%;
+   right: 20px;
+   width: 70px;
+   transition: 150ms;
+}
+.whatsIconPosition:hover {
+   width: 80px;
+   transition: 150ms;
+   cursor: pointer;
+}
 
+.totalTV {
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 63.1724px;
+   letter-spacing: -0.015em;
+   color: #ffffff;
+}
+
+.TVtitle {
+   font-family: "Montserrat";
+   font-style: italic;
+   font-weight: 800;
+   font-size: 27.1136px;
+   line-height: 100.4%;
+}
+.TVsub {
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 13.9031px;
+   line-height: 105.4%;
+}
 
 @media (max-width: 1199px) {
-   .tiraimg{
+   .tiraimg {
       width: 100%;
       padding: 20px;
    }
-   .tiratxt{
+   .tiratxt {
       font-size: 4vw;
       text-align: center;
       padding: 20px;
@@ -319,13 +355,13 @@
 }
 
 @media (max-width: 576px) {
-   .tiraimg img{
+   .tiraimg img {
       width: 50%;
    }
-   .purpleTitle{
+   .purpleTitle {
       font-size: 10vw;
    }
-   .subpurpleTitle{
+   .subpurpleTitle {
       font-size: 6vw;
    }
 }
