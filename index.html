@@ -59,7 +59,7 @@
                      >
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link mx-sm-1 mx-md-2 mx-lg-4 mx-1" href="#"
+                     <a class="nav-link mx-sm-1 mx-md-2 mx-lg-4 mx-1" href="#contact"
                         >Contáctanos</a
                      >
                   </li>
@@ -673,6 +673,58 @@
             </div>
          </div>
       </section>
+
+
+      <section class="contact mt-4" id="contact">
+         <div class="container">
+            <form action="./php/envia_correo.php" method="post">
+               <div class="row d-flex justify-content-center">
+                  <div class="col-sm-12 col-md-12 col-lg-10 col-xl-8">
+                     <div class="row">
+                        <div class="col-12 text-center mb-5">
+                           <div class="contactTitle">
+                              ¡Contrata hoy mismo!
+                           </div>
+                           <div class="contactSubTitle">
+                              Nosotros te llamamos 
+                           </div>
+                        </div>
+                        <div class="col-12 mb-4">
+                           <div class="headform">
+                              Ingresa tus datos 
+                           </div>
+                           <div class="subheadform">
+                              Un asesor se pondrá en contacto
+                           </div>
+                        </div>
+                        <div class="col-12">
+                           <div class="form-floating mb-4">
+                              <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                              <label class="labelinput" for="floatingInput">Nombre</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                              <label class="labelinput" for="floatingInput">Correo</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                              <input type="number" class="form-control" id="telefono" placeholder="name@example.com">
+                              <label class="labelinput" for="floatingInput">Telefono</label>
+                            </div>
+                            <div class="form-floating mb-4">
+                              <textarea class="form-control" placeholder="Leave a comment here" id="mensaje" style="height: 120px"></textarea>
+                              <label class="labelinput" for="floatingTextarea2">Mensaje</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                           <button class="btnEnviar" type="submit">Enviar</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </section>
+
 
 
       <section class="footer">
