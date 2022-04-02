@@ -17,6 +17,9 @@
 .verde2 {
    color: #b6d03a;
 }
+.verde3 {
+   color: #5cb800;
+}
 .verdeH {
    background-color: #b6d03a;
 }
@@ -66,7 +69,7 @@
 .moradoH {
    background-color: #9261a8;
 }
-.blanco1{
+.blanco1 {
    color: grey;
 }
 
@@ -419,15 +422,60 @@
    line-height: 134.4%;
 }
 
-.cardVentajas1:hover .cardVentajastitle{
+.cardVentajas1:hover .cardVentajastitle, .cardVentajasicon1 {
    color: white;
+   transition: 350ms;
 }
-.cardVentajas2:hover .cardVentajastitle{
+.cardVentajas2:hover .cardVentajastitle {
    color: white;
+   transition: 350ms;
 }
-.cardVentajas3:hover .cardVentajastitle{
+.cardVentajas3:hover .cardVentajastitle {
    color: white;
+   transition: 350ms;
 }
+
+.cardVentajasicon1 {
+   width: 50px;
+   height: 50px;
+   background-image: url("../img/icons/speed.png");
+   background-size: 100%;
+   background-position: center;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.cardVentajasicon2 {
+   width: 50px;
+   height: 50px;
+   background-image: url("../img/icons/4k.png");
+   background-size: 100%;
+   background-position: center;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.cardVentajasicon3 {
+   width: 50px;
+   height: 50px;
+   background-image: url("../img/icons/replay.png");
+   background-size: 100%;
+   background-position: center;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.cardVentajas1:hover .cardVentajasicon1 {
+   background-image: url("../img/icons/speed-white.png");
+}
+.cardVentajas2:hover .cardVentajasicon2 {
+   background-image: url("../img/icons/4k-white.png");
+}
+.cardVentajas3:hover .cardVentajasicon3 {
+   background-image: url("../img/icons/replay-white.png");
+}
+
 
 @media (max-width: 1199px) {
    .tiraimg {
@@ -450,5 +498,8 @@
    }
    .subpurpleTitle {
       font-size: 6vw;
+   }
+   .appsTV{
+      font-size: 30px;
    }
 }
