@@ -3,602 +3,715 @@
 
 html,
 body {
-  overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 .colorNaranja {
-  color: #ff8845;
+   color: #ff8845;
 }
 .colorVerde {
-  color: #c1e221;
+   color: #c1e221;
 }
 .colorRojo {
-  color: #ff4b54;
+   color: #ff4b54;
 }
 
 .verde1 {
-  color: #7d911f;
+   color: #7d911f;
 }
 .verde2 {
-  color: #b6d03a;
+   color: #b6d03a;
 }
 .verde3 {
-  color: #5cb800;
+   color: #5cb800;
 }
 .verdeH {
-  background-color: #b6d03a;
+   background-color: #b6d03a;
 }
 .amarillo1 {
-  color: #b9780f;
+   color: #b9780f;
 }
 .amarillo2 {
-  color: #fbaf35;
+   color: #fbaf35;
 }
 .amarilloH {
-  background-color: #fbaf35;
+   background-color: #fbaf35;
 }
 .rojo1 {
-  color: #e82539;
+   color: #e82539;
 }
 .rojo2 {
-  color: #f3374a;
+   color: #f3374a;
 }
 .rojoH {
-  background-color: #e82539;
+   background-color: #e82539;
 }
 
 .azul1 {
-  color: #0788a7;
+   color: #0788a7;
 }
 .azul2 {
-  color: #00b7e3;
+   color: #00b7e3;
 }
 .azulH {
-  background-color: #00b7e3;
+   background-color: #00b7e3;
 }
 .rosa1 {
-  color: #e41e6f;
+   color: #e41e6f;
 }
 .rosa2 {
-  color: #e31f6f;
+   color: #e31f6f;
 }
 .rosaH {
-  background-color: #e31f6f;
+   background-color: #e31f6f;
 }
 .morado1 {
-  color: #794f8c;
+   color: #794f8c;
 }
 .morado2 {
-  color: #9261a8;
+   color: #9261a8;
 }
 .moradoH {
-  background-color: #9261a8;
+   background-color: #9261a8;
 }
 .blanco1 {
-  color: grey;
+   color: grey;
 }
 
 .BoxS {
-  background-color: white;
-  box-shadow: 0px 2px 18px -4px rgba(0, 0, 0, 0.6);
+   background-color: white;
+   box-shadow: 0px 2px 18px -4px rgba(0, 0, 0, 0.6);
 }
 
 .H-align {
-  position: relative;
-  left: 45%;
-  transform: translateX(-50%);
+   position: relative;
+   left: 45%;
+   transform: translateX(-50%);
 }
-.banner-1 {
-  margin-top: 70px;
-}
-.textalignvertical {
-  position: absolute;
-  top: 7%;
+
+.banner1 {
+   margin-top: 70px;
+   background-image: url("../img/content/banner-1.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .cardBanner {
-  background: #ffffff;
-  box-shadow: 0px 0px 13.8767px 11.7418px rgba(0, 0, 0, 0.04);
-  border-radius: 15px;
+   background: #ffffff;
+   box-shadow: 0px 0px 13.8767px 11.7418px rgba(0, 0, 0, 0.04);
+   border-radius: 15px;
+   padding: 35px 15px;
+   height: 100%;
 }
 .contB1 {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 2.2vw;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 44.4776px;
+   line-height: 47px;
 }
 .subB1 {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.8vw;
-  line-height: 1.2vw;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 33.6106px;
+   line-height: 35px;
 }
 .subB1-2 {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.4vw;
-  line-height: 1.2vw;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 29px;
+   line-height: 35px;
 }
 .contB2 {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 2vw;
-  line-height: 2.5vw;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 42.5888px;
+   line-height: 47px;
+}
+.contB2-2 {
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28.5888px;
+   line-height: 47px;
 }
 .priceB1 {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 2.2vw;
-  line-height: 3vw;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 50px;
+   line-height: 47px;
 }
 .subB2 {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 1.2vw;
-  line-height: 2vw;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 1.8vw;
+   line-height: 47px;
+}
+.subB2-2 {
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 47px;
 }
 
 .bannerTxt {
-  font-family: "Montserrat";
-  font-style: italic;
-  font-weight: 800;
-  font-size: 3vw;
-  line-height: 4vw;
-  color: #646161;
+   font-family: "Montserrat";
+   font-style: italic;
+   font-weight: 800;
+   font-size: 3vw;
+   line-height: 4vw;
+   color: #646161;
+   margin-bottom: 25px;
 }
 .bannersub {
-  color: #fbaf35;
+   color: #fbaf35;
 }
 .bannerBtn {
-  font-family: "Livvic";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 77px;
-  color: #ffffff;
-  background: #00b7e3;
-  border-radius: 41px;
-  padding: 11px 44px;
-  text-decoration: none;
+   font-family: "Livvic";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 77px;
+   color: #ffffff;
+   background: #00b7e3;
+   border-radius: 41px;
+   padding: 11px 44px;
+   text-decoration: none;
 }
 .bannerBtn:hover {
-  color: white;
+   color: white;
 }
 .nav-link {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  text-transform: capitalize;
-  color: #101010 !important;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   text-transform: capitalize;
+   color: #101010 !important;
 }
 
 .tiraP {
-  background-image: url("../img/content/back-tira1.png");
+   background-image: url("../img/content/back-tira1.png");
 }
 .tiraimg {
-  padding: 50px;
+   padding: 50px;
 }
 .tiratxt {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2vw;
-  line-height: 3.5vw;
-  text-align: right;
-  color: #ffffff;
-  padding: 50px;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 2vw;
+   line-height: 3.5vw;
+   text-align: right;
+   color: #ffffff;
+   padding: 50px;
 }
 .purpleTitle {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 60px;
-  line-height: 129.4%;
-  color: #85559a;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 60px;
+   line-height: 129.4%;
+   color: #85559a;
 }
 .subpurpleTitle {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 125.4%;
-  letter-spacing: -0.015em;
-  color: #636569;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 125.4%;
+   letter-spacing: -0.015em;
+   color: #636569;
 }
 .cardpaquetes {
-  background: #ffffff;
-  box-shadow: 0px 0px 13px 11px rgba(0, 0, 0, 0.04);
-  border-radius: 11px;
-  overflow: hidden;
+   background: #ffffff;
+   box-shadow: 0px 0px 13px 11px rgba(0, 0, 0, 0.04);
+   border-radius: 11px;
+   height: 100%;
+   overflow: hidden;
+}
+.cardpaquetes2 {
+   background: #ffffff;
+   box-shadow: 0px 0px 13px 11px rgba(0, 0, 0, 0.04);
+   border-radius: 11px;
+   height: 100%;
+   overflow: hidden;
 }
 .paquetesheader {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 25px;
-  line-height: 129.4%;
-  color: #ffffff;
-
-  padding: 35px 0;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 800;
+   font-size: 25px;
+   line-height: 129.4%;
+   color: #ffffff;
+   height: 110px;
+   padding: 35px 0;
 }
 .cardpaquetescontent {
-  padding: 34px 15px;
+   padding: 34px 15px;
 }
 .cont1 {
-  font-family: "Montserrat";
-  font-style: italic;
-  font-weight: 800;
-  font-size: 47.1963px;
-  line-height: 101.4%;
+   font-family: "Montserrat";
+   font-style: italic;
+   font-weight: 800;
+   font-size: 47.1963px;
+   line-height: 101.4%;
 }
 .cont2 {
-  font-family: "Montserrat";
-  font-style: italic;
-  font-weight: 800;
-  font-size: 36.6012px;
-  line-height: 129.4%;
+   font-family: "Montserrat";
+   font-style: italic;
+   font-weight: 800;
+   font-size: 2vw;
+   line-height: 129.4%;
 }
 .sub1 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20.227px;
-  line-height: 105.4%;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20.227px;
+   line-height: 105.4%;
 }
 .price1 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 67.4233px;
-  line-height: 129.4%;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 800;
+   /* font-size: 67.4233px; */
+   font-size: 3.5vw;
+   line-height: 129.4%;
 }
 .price2 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 58.7546px;
-  line-height: 129.4%;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 800;
+   font-size: 58.7546px;
+   line-height: 129.4%;
 }
 
 .footer {
-  background-color: #2b2b2b;
+   background-color: #2b2b2b;
 }
 .fooDescripcion {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18.254px;
-  line-height: 38px;
-  color: #ffffff;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18.254px;
+   line-height: 38px;
+   color: #ffffff;
 }
 .fooHeader {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25.0992px;
-  color: #00b7e3;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 25.0992px;
+   color: #00b7e3;
 }
 .foolink a {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18.254px;
-  color: #ffffff;
-  text-decoration: none;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18.254px;
+   color: #ffffff;
+   text-decoration: none;
 }
 .foolink a:hover {
-  color: #b6d03a;
+   color: #b6d03a;
 }
 .fooFooter {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: #ffffff;
-  background-color: #242424;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   color: #ffffff;
+   background-color: #242424;
 }
 .margen1 {
-  width: 100%;
-  height: 80px;
+   width: 100%;
+   height: 80px;
 }
 .margen2 {
-  width: 100%;
-  height: 180px;
+   width: 100%;
+   height: 180px;
 }
 
 .whatsIconPosition {
-  position: fixed;
-  z-index: 15;
-  top: 40%;
-  right: 20px;
-  width: 70px;
-  transition: 150ms;
+   position: fixed;
+   z-index: 15;
+   top: 40%;
+   right: 20px;
+   width: 70px;
+   transition: 150ms;
 }
 .whatsIconPosition:hover {
-  width: 80px;
-  transition: 150ms;
-  cursor: pointer;
+   width: 80px;
+   transition: 150ms;
+   cursor: pointer;
 }
 
 .totalTV {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 63.1724px;
-  letter-spacing: -0.015em;
-  color: #ffffff;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 63.1724px;
+   letter-spacing: -0.015em;
+   color: #ffffff;
 }
 
 .TVtitle {
-  font-family: "Montserrat";
-  font-style: italic;
-  font-weight: 800;
-  font-size: 27.1136px;
-  line-height: 100.4%;
+   font-family: "Montserrat";
+   font-style: italic;
+   font-weight: 800;
+   font-size: 27.1136px;
+   line-height: 100.4%;
 }
 .TVsub {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13.9031px;
-  line-height: 105.4%;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 13.9031px;
+   line-height: 105.4%;
 }
 
 .appsTV {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 56px;
-  line-height: 121.9%;
-  color: #38393d;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 56px;
+   line-height: 121.9%;
+   color: #38393d;
 }
 .brandsImg {
-  transition: 150ms;
+   transition: 150ms;
 }
 .brandsImg:hover {
-  position: relative;
-  transform: translateY(-10px);
-  transition: 150ms;
+   position: relative;
+   transform: translateY(-10px);
+   transition: 150ms;
 }
 
 .cardVentajas1 {
-  background: #ffffff;
-  box-shadow: 0px 0px 24.6316px 20.8421px rgba(0, 0, 0, 0.04);
-  border-radius: 20.8421px;
-  padding: 60px 40px;
-  transition: 350ms;
+   background: #ffffff;
+   box-shadow: 0px 0px 24.6316px 20.8421px rgba(0, 0, 0, 0.04);
+   border-radius: 20.8421px;
+   padding: 50px 40px;
+   height: 290px;
+   transition: 350ms;
 }
 .cardVentajas2 {
-  background: #ffffff;
-  box-shadow: 0px 0px 24.6316px 20.8421px rgba(0, 0, 0, 0.04);
-  border-radius: 20.8421px;
-  padding: 60px 40px;
-  transition: 350ms;
+   background: #ffffff;
+   box-shadow: 0px 0px 24.6316px 20.8421px rgba(0, 0, 0, 0.04);
+   border-radius: 20.8421px;
+   padding: 50px 40px;
+   height: 290px;
+   transition: 350ms;
 }
 .cardVentajas3 {
-  background: #ffffff;
-  box-shadow: 0px 0px 24.6316px 20.8421px rgba(0, 0, 0, 0.04);
-  border-radius: 20.8421px;
-  padding: 60px 40px;
-  transition: 350ms;
+   background: #ffffff;
+   box-shadow: 0px 0px 24.6316px 20.8421px rgba(0, 0, 0, 0.04);
+   border-radius: 20.8421px;
+   padding: 50px 25px;
+   height: 290px;
+   transition: 350ms;
 }
 .cardVentajas1:hover {
-  background: #5cb800;
-  box-shadow: 0px 0px 24.6316px 20.8421px rgba(92, 184, 0, 0.04);
-  border-radius: 20.8421px;
-  color: white;
-  transition: 350ms;
+   background: #5cb800;
+   box-shadow: 0px 0px 24.6316px 20.8421px rgba(92, 184, 0, 0.04);
+   border-radius: 20.8421px;
+   color: white;
+   transition: 350ms;
 }
 .cardVentajas2:hover {
-  background: #e31f6f;
-  box-shadow: 0px 0px 24.6316px 20.8421px rgba(92, 184, 0, 0.04);
-  border-radius: 20.8421px;
-  color: white;
-  transition: 350ms;
+   background: #e31f6f;
+   box-shadow: 0px 0px 24.6316px 20.8421px rgba(92, 184, 0, 0.04);
+   border-radius: 20.8421px;
+   color: white;
+   transition: 350ms;
 }
 .cardVentajas3:hover {
-  background: #00b7e3;
-  box-shadow: 0px 0px 24.6316px 20.8421px rgba(92, 184, 0, 0.04);
-  border-radius: 20.8421px;
-  color: white;
-  transition: 350ms;
+   background: #00b7e3;
+   box-shadow: 0px 0px 24.6316px 20.8421px rgba(92, 184, 0, 0.04);
+   border-radius: 20.8421px;
+   color: white;
+   transition: 350ms;
 }
 
 .cardVentajastitle {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26.9462px;
-  line-height: 129.4%;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26.9462px;
+   line-height: 129.4%;
 }
 .cardVentajascontent {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20.227px;
-  line-height: 134.4%;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20.227px;
+   line-height: 134.4%;
 }
 
 .cardVentajas1:hover .cardVentajastitle,
 .cardVentajasicon1 {
-  color: white;
-  transition: 350ms;
+   color: white;
+   transition: 350ms;
 }
 .cardVentajas2:hover .cardVentajastitle {
-  color: white;
-  transition: 350ms;
+   color: white;
+   transition: 350ms;
 }
 .cardVentajas3:hover .cardVentajastitle {
-  color: white;
-  transition: 350ms;
+   color: white;
+   transition: 350ms;
 }
 
 .cardVentajasicon1 {
-  width: 50px;
-  height: 50px;
-  background-image: url("../img/icons/speed.png");
-  background-size: 100%;
-  background-position: center;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+   width: 50px;
+   height: 50px;
+   background-image: url("../img/icons/speed.png");
+   background-size: 100%;
+   background-position: center;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
 }
 .cardVentajasicon2 {
-  width: 50px;
-  height: 50px;
-  background-image: url("../img/icons/4k.png");
-  background-size: 100%;
-  background-position: center;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+   width: 50px;
+   height: 50px;
+   background-image: url("../img/icons/4k.png");
+   background-size: 100%;
+   background-position: center;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
 }
 .cardVentajasicon3 {
-  width: 50px;
-  height: 50px;
-  background-image: url("../img/icons/replay.png");
-  background-size: 100%;
-  background-position: center;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+   width: 50px;
+   height: 50px;
+   background-image: url("../img/icons/replay.png");
+   background-size: 100%;
+   background-position: center;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
 }
 
 .cardVentajas1:hover .cardVentajasicon1 {
-  background-image: url("../img/icons/speed-white.png");
+   background-image: url("../img/icons/speed-white.png");
 }
 .cardVentajas2:hover .cardVentajasicon2 {
-  background-image: url("../img/icons/4k-white.png");
+   background-image: url("../img/icons/4k-white.png");
 }
 .cardVentajas3:hover .cardVentajasicon3 {
-  background-image: url("../img/icons/replay-white.png");
+   background-image: url("../img/icons/replay-white.png");
 }
 
 .contact {
-  background-image: url("../img/content/contacto-background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 100px 0;
+   background-image: url("../img/content/contacto-background.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px 0;
 }
 .contactTitle {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 56px;
-  line-height: 122.4%;
-  color: #ffffff;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 56px;
+   line-height: 122.4%;
+   color: #ffffff;
 }
 
 .contactSubTitle {
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 122.4%;
-  color: #ffffff;
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 48px;
+   line-height: 122.4%;
+   color: #ffffff;
 }
 .headform {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 35.3112px;
-  line-height: 129.4%;
-  color: #ffffff;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 35.3112px;
+   line-height: 129.4%;
+   color: #ffffff;
 }
 .subheadform {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 28.6448px;
-  line-height: 129.4%;
-  color: #ffffff;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 28.6448px;
+   line-height: 129.4%;
+   color: #ffffff;
 }
 .labelinput {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  color: #9261a8;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   color: #9261a8;
 }
 .form-control:focus {
-  box-shadow: none;
-  border: none;
-  outline: none;
+   box-shadow: none;
+   border: none;
+   outline: none;
 }
 .form-control {
-  box-shadow: none;
-  border: none;
-  outline: none;
+   box-shadow: none;
+   border: none;
+   outline: none;
 }
 
 .btnEnviar {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 26px;
-  color: #ffffff;
-  background: #45c509;
-  border-radius: 41px;
-  padding: 14px 45px;
-  border: none;
-  outline: none;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 26px;
+   color: #ffffff;
+   background: #45c509;
+   border-radius: 41px;
+   padding: 14px 45px;
+   border: none;
+   outline: none;
 }
 .btnEnviar:hover {
-  background: #38a306;
+   background: #38a306;
+}
+
+@media (max-width: 1399px) {
+   .price1 {
+      font-size: 5.5vw;
+   }
+   .cont2 {
+      font-size: 3.5vw;
+   }
+}
+@media (max-width: 1247px) {
+   .cardVentajas1,
+   .cardVentajas2,
+   .cardVentajas3 {
+      height: 320px;
+   }
 }
 
 @media (max-width: 1199px) {
-  .tiraimg {
-    width: 100%;
-    padding: 20px;
-  }
-  .tiratxt {
-    font-size: 4vw;
-    text-align: center;
-    padding: 20px;
-  }
+   .tiraimg {
+      width: 100%;
+      padding: 20px;
+   }
+   .tiratxt {
+      font-size: 4vw;
+      text-align: center;
+      padding: 20px;
+   }
 }
+
 @media (max-width: 991px) {
-  .contact {
-    padding: 50px;
-  }
+   .contact {
+      padding: 50px;
+   }
+   .cardVentajas1,
+   .cardVentajas2,
+   .cardVentajas3 {
+      height: 280px;
+   }
+   .price1 {
+      font-size: 6.5vw;
+   }
+   .cont2 {
+      font-size: 4vw;
+   }
+   .bannerTxt{
+      margin-top: 20px;
+      font-size: 6vw;
+      line-height: 6vw;
+   }
+   .subB2{
+      font-size: 3vw;
+   }
+}
+@media (max-width: 767px) {
+   .cardVentajas1,
+   .cardVentajas2,
+   .cardVentajas3 {
+      height: auto;
+   }
+   .price1 {
+      font-size: 10vw;
+   }
+   .cont2 {
+      font-size: 6vw;
+   }
 }
 @media (max-width: 576px) {
-  .tiraimg img {
-    width: 50%;
-  }
-  .purpleTitle {
-    font-size: 10vw;
-  }
-  .subpurpleTitle {
-    font-size: 6vw;
-  }
-  .appsTV {
-    font-size: 30px;
-  }
-  .contact {
-    padding: 0;
-  }
-  .contactTitle {
-    margin-top: 30px;
-    font-size: 33px;
-  }
-  .contactSubTitle {
-    font-size: 28px;
-  }
-  .headform {
-    font-size: 24px;
-  }
-  .subheadform {
-    font-size: 20px;
-  }
+   .tiraimg img {
+      width: 50%;
+   }
+   .tiratxt{
+      font-size: 6vw;
+      line-height: 6vw;
+   }
+   .purpleTitle {
+      font-size: 10vw;
+      margin-bottom: 15px;
+   }
+   .subpurpleImg {
+      width: 50%;
+   }
+   .subpurpleTitle {
+      font-size: 8.5vw;
+   }
+   .appsTV {
+      font-size: 30px;
+   }
+   .contact {
+      padding: 0;
+   }
+   .contactTitle {
+      margin-top: 30px;
+      font-size: 33px;
+   }
+   .contactSubTitle {
+      font-size: 28px;
+   }
+   .headform {
+      font-size: 24px;
+   }
+   .subheadform {
+      font-size: 20px;
+   }
+   .price1 {
+      font-size: 14vw;
+   }
+   .cont2 {
+      font-size: 10vw;
+   }
+
+   .totalTV {
+      font-size: 12vw;
+   }
+   .totalTVImg {
+      width: 65%;
+   }
+   .bannerTxt{
+      margin-top: 20px;
+      font-size: 8vw;
+      line-height: 8vw;
+   }
+   .subB2{
+      font-size: 6vw;
+   }
+   .subB2-2{
+      font-size: 6vw;
+   }
 }
