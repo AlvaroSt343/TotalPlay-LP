@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $telefono = $_POST["telefono"];
     $mensaje = filter_var(trim($_POST["mensaje"], FILTER_SANITIZE_STRING));
     $subject = "¡Nuevo Cliente!";
-    $context = "Un nuevo cliente quiere ponerse en contacto con usted";
+    $context = "¡Un nuevo cliente quiere ponerse en contacto con usted!";
     if (empty($nombre) or !filter_var($email, FILTER_VALIDATE_EMAIL) or empty($telefono) or empty($mensaje)) {
         # Establecer un código de respuesta y salida.
         // http_response_code(400);
