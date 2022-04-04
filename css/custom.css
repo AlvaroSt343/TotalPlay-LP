@@ -588,6 +588,22 @@ body {
    background: #38a306;
 }
 
+.btnPlan{
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 26px;
+   color: #ffffff;
+   background: #45c509;
+   border-radius: 41px;
+   padding: 14px 45px;
+   border: none;
+   outline: none;
+   text-decoration: none;
+}
+
+
 @media (max-width: 1399px) {
    .price1 {
       font-size: 5.5vw;
@@ -651,6 +667,9 @@ body {
    }
    .cont2 {
       font-size: 6vw;
+   }
+   .H-align{
+      left: 50%;
    }
 }
 @media (max-width: 576px) {

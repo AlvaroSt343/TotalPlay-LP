@@ -535,6 +535,17 @@
                </div>
             </div>
          </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-12 text-center mt-4">
+                  <a class="btnPlan"
+                     target="_blank"
+                      href="https://api.whatsapp.com/send?phone=5219981661007&text=¡Hola!%2C%20quisiera%20validar%20la%20cobertura%20en%20mi%20zona.">
+                      Contratar Plan
+                  </a>
+               </div>
+            </div>
+         </div>
          <div class="margen2"></div>
       </section>
 
@@ -657,19 +668,19 @@
                         </div>
                         <div class="col-12">
                            <div class="form-floating mb-4">
-                              <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                              <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
                               <label class="labelinput" for="floatingInput">Nombre</label>
                             </div>
                             <div class="form-floating mb-4">
-                              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                              <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
                               <label class="labelinput" for="floatingInput">Correo</label>
                             </div>
                             <div class="form-floating mb-4">
-                              <input type="number" class="form-control" id="telefono" placeholder="name@example.com">
+                              <input type="number" class="form-control" id="telefono" name="telefono" placeholder="telefono" required minlength="7">
                               <label class="labelinput" for="floatingInput">Telefono</label>
                             </div>
                             <div class="form-floating mb-4">
-                              <textarea class="form-control" placeholder="Leave a comment here" id="mensaje" style="height: 120px"></textarea>
+                              <textarea class="form-control" placeholder="Leave a comment here" id="mensaje" name="mensaje" style="height: 120px" required></textarea>
                               <label class="labelinput" for="floatingTextarea2">Mensaje</label>
                             </div>
                         </div>
