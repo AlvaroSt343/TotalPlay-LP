@@ -77,6 +77,12 @@ body {
 .blanco1 {
    color: grey;
 }
+.negro1B {
+   background-color: #2e4357;
+}
+.negro2B {
+   background-color: #000000;
+}
 
 .BoxS {
    background-color: white;
@@ -87,6 +93,11 @@ body {
    position: relative;
    left: 45%;
    transform: translateX(-50%);
+}
+.V-align {
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
 }
 
 .banner1 {
@@ -259,6 +270,51 @@ body {
 .cardpaquetescontent {
    padding: 34px 15px;
 }
+.adicional1{
+   padding: 30px 0;
+}
+.adicional2{
+   padding: 25px 0;
+}
+.adicionalCont1 {
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 800;
+   font-size: 38px;
+   line-height: 81.4%;
+   color: #ffffff;
+}
+.adicionalCont2 {
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 800;
+   font-size: 55px;
+   line-height: 40px;
+   color: #ffffff;
+}
+.adicionalCont3 {
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15.8943px;
+   line-height: -10px;
+   color: #ffffff;
+}
+.subadicional{
+   font-family: 'Proxima Nova', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 21px;
+   line-height: 10px;
+   letter-spacing: -0.015em;
+   
+   color: #FFFFFF;
+}
+.totalTVImg2{
+   width: 50%;
+}
+
+
 .cont1 {
    font-family: "Montserrat";
    font-style: italic;
@@ -361,6 +417,14 @@ body {
    font-style: normal;
    font-weight: 700;
    font-size: 63.1724px;
+   letter-spacing: -0.015em;
+   color: #ffffff;
+}
+.totalTV2 {
+   font-family: proxima-nova, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
    letter-spacing: -0.015em;
    color: #ffffff;
 }
@@ -588,7 +652,7 @@ body {
    background: #38a306;
 }
 
-.btnPlan{
+.btnPlan {
    font-family: "Montserrat";
    font-style: normal;
    font-weight: 700;
@@ -602,7 +666,6 @@ body {
    outline: none;
    text-decoration: none;
 }
-
 
 @media (max-width: 1399px) {
    .price1 {
@@ -647,12 +710,12 @@ body {
    .cont2 {
       font-size: 4vw;
    }
-   .bannerTxt{
+   .bannerTxt {
       margin-top: 20px;
       font-size: 6vw;
       line-height: 6vw;
    }
-   .subB2{
+   .subB2 {
       font-size: 3vw;
    }
 }
@@ -668,7 +731,7 @@ body {
    .cont2 {
       font-size: 6vw;
    }
-   .H-align{
+   .H-align {
       left: 50%;
    }
 }
@@ -676,7 +739,7 @@ body {
    .tiraimg img {
       width: 50%;
    }
-   .tiratxt{
+   .tiratxt {
       font-size: 6vw;
       line-height: 6vw;
    }
@@ -722,15 +785,15 @@ body {
    .totalTVImg {
       width: 65%;
    }
-   .bannerTxt{
+   .bannerTxt {
       margin-top: 20px;
       font-size: 8vw;
       line-height: 8vw;
    }
-   .subB2{
+   .subB2 {
       font-size: 6vw;
    }
-   .subB2-2{
+   .subB2-2 {
       font-size: 6vw;
    }
 }
